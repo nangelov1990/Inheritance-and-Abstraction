@@ -1,15 +1,24 @@
-﻿namespace Human_Student_Worker.Data
+﻿namespace Company_Hierarchy.Data
 {
     using System;
+    using Company_Hierarchy.Data.Interfaces;
 
-    abstract class Human
+    abstract class Person : IPerson
     {
         private string _firstName;
         private string _lastName;
+        private byte _id;
 
-        protected Human(string name)
+        protected Person(string name, byte id)
         {
             this.Name = name;
+            this.Id = id;
+        }
+
+        public byte Id
+        {
+            get { return this._id; }
+            set { this._id = value; }
         }
 
         private string Name
@@ -54,9 +63,10 @@
         public override string ToString()
         {
             var output = string.Format(
-                "{0} - Name: {1}; ",
+                "{0}\nName: {1:000}\nID: {2}\n",
                 this.GetType().Name.ToUpper(),
-                this.Name);
+                this.Name,
+                this.Id);
 
             return output;
         }

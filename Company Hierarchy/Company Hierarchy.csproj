@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CF150527-4BD0-467F-8A60-2B82AA0843AC}</ProjectGuid>
+    <ProjectGuid>{2BCADEE3-5E8E-4CB1-A5DC-DEA6688C8819}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Animals</RootNamespace>
-    <AssemblyName>Animals</AssemblyName>
+    <RootNamespace>Company_Hierarchy</RootNamespace>
+    <AssemblyName>Company Hierarchy</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,20 +41,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnimalSystem.cs" />
-    <Compile Include="Data\Animal.cs" />
-    <Compile Include="Data\Cat.cs" />
-    <Compile Include="Data\Dog.cs" />
-    <Compile Include="Data\Enum\Genders.cs" />
-    <Compile Include="Data\Frog.cs" />
-    <Compile Include="Data\Interfaces\ISound.cs" />
-    <Compile Include="Data\Kitten.cs" />
-    <Compile Include="Data\Tomcat.cs" />
+    <Compile Include="CompanyHierarchy.cs" />
+    <Compile Include="Data\Customer.cs" />
+    <Compile Include="Data\Developer.cs" />
+    <Compile Include="Data\Enums\Departments.cs" />
+    <Compile Include="Data\Employee.cs" />
+    <Compile Include="Data\Interfaces\ICustomer.cs" />
+    <Compile Include="Data\Interfaces\IDeveloper.cs" />
+    <Compile Include="Data\Interfaces\IEmployee.cs" />
+    <Compile Include="Data\Interfaces\IManager.cs" />
+    <Compile Include="Data\Interfaces\IPerson.cs" />
+    <Compile Include="Data\Interfaces\IProject.cs" />
+    <Compile Include="Data\Interfaces\ISale.cs" />
+    <Compile Include="Data\Interfaces\ISalesEmployee.cs" />
+    <Compile Include="Data\Enums\ProjectStates.cs" />
+    <Compile Include="Data\Manager.cs" />
+    <Compile Include="Data\Project.cs" />
+    <Compile Include="Data\RegularEmployee.cs" />
+    <Compile Include="Data\Sale.cs" />
+    <Compile Include="Data\Person.cs" />
+    <Compile Include="Data\SalesEmployee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="AnimalSystem.cd" />
+    <None Include="CompanyHierarchy.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

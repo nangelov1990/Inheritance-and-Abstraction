@@ -1,0 +1,6 @@
+C:\Users\angelovn\Documents\SoftUni\Levels\Level 2\OOP\03. Inheritance-and-Abstraction\Homework\Inheritance-and-Abstraction\Company Hierarchy\bin\Debug\Company Hierarchy.exe.config
+C:\Users\angelovn\Documents\SoftUni\Levels\Level 2\OOP\03. Inheritance-and-Abstraction\Homework\Inheritance-and-Abstraction\Company Hierarchy\obj\Debug\Company Hierarchy.csprojResolveAssemblyReference.cache
+C:\Users\angelovn\Documents\SoftUni\Levels\Level 2\OOP\03. Inheritance-and-Abstraction\Homework\Inheritance-and-Abstraction\Company Hierarchy\bin\Debug\Company Hierarchy.exe
+C:\Users\angelovn\Documents\SoftUni\Levels\Level 2\OOP\03. Inheritance-and-Abstraction\Homework\Inheritance-and-Abstraction\Company Hierarchy\bin\Debug\Company Hierarchy.pdb
+C:\Users\angelovn\Documents\SoftUni\Levels\Level 2\OOP\03. Inheritance-and-Abstraction\Homework\Inheritance-and-Abstraction\Company Hierarchy\obj\Debug\Company Hierarchy.exe
+C:\Users\angelovn\Documents\SoftUni\Levels\Level 2\OOP\03. Inheritance-and-Abstraction\Homework\Inheritance-and-Abstraction\Company Hierarchy\obj\Debug\Company Hierarchy.pdb
