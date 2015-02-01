@@ -1,0 +1,1 @@
+C:\Users\angelovn\Documents\SoftUni\Levels\Level 2\OOP\03. Inheritance-and-Abstraction\Homework\Inheritance-and-Abstraction\School\bin\Debug\School.exe.config
