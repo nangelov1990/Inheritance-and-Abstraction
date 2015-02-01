@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EE1911DA-78CF-453B-AC62-DA017E1B5689}</ProjectGuid>
+    <ProjectGuid>{CF150527-4BD0-467F-8A60-2B82AA0843AC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>School</RootNamespace>
-    <AssemblyName>School</AssemblyName>
+    <RootNamespace>Animals</RootNamespace>
+    <AssemblyName>Animals</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,19 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\Discipline.cs" />
-    <Compile Include="Data\Interfaces\IName.cs" />
-    <Compile Include="Data\Interfaces\IDetails.cs" />
-    <Compile Include="Data\People\Person.cs" />
-    <Compile Include="Data\People\Student.cs" />
-    <Compile Include="Data\People\Teacher.cs" />
-    <Compile Include="Data\SchoolClass.cs" />
-    <Compile Include="SchoolSystem.cs" />
+    <Compile Include="AnimalSystem.cs" />
+    <Compile Include="Data\Animal.cs" />
+    <Compile Include="Data\Cat.cs" />
+    <Compile Include="Data\Dog.cs" />
+    <Compile Include="Data\Enum\Genders.cs" />
+    <Compile Include="Data\Frog.cs" />
+    <Compile Include="Data\Interfaces\ISound.cs" />
+    <Compile Include="Data\Kitten.cs" />
+    <Compile Include="Data\Tomcat.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="School.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
