@@ -1,0 +1,6 @@
+C:\Users\angelovn\Documents\SoftUni\Levels\Level 2\OOP\03. Inheritance-and-Abstraction\Homework\Inheritance-and-Abstraction\Human-Student-Worker\bin\Debug\Human-Student-Worker.exe.config
+C:\Users\angelovn\Documents\SoftUni\Levels\Level 2\OOP\03. Inheritance-and-Abstraction\Homework\Inheritance-and-Abstraction\Human-Student-Worker\bin\Debug\Human-Student-Worker.exe
+C:\Users\angelovn\Documents\SoftUni\Levels\Level 2\OOP\03. Inheritance-and-Abstraction\Homework\Inheritance-and-Abstraction\Human-Student-Worker\bin\Debug\Human-Student-Worker.pdb
+C:\Users\angelovn\Documents\SoftUni\Levels\Level 2\OOP\03. Inheritance-and-Abstraction\Homework\Inheritance-and-Abstraction\Human-Student-Worker\obj\Debug\Human-Student-Worker.csprojResolveAssemblyReference.cache
+C:\Users\angelovn\Documents\SoftUni\Levels\Level 2\OOP\03. Inheritance-and-Abstraction\Homework\Inheritance-and-Abstraction\Human-Student-Worker\obj\Debug\Human-Student-Worker.exe
+C:\Users\angelovn\Documents\SoftUni\Levels\Level 2\OOP\03. Inheritance-and-Abstraction\Homework\Inheritance-and-Abstraction\Human-Student-Worker\obj\Debug\Human-Student-Worker.pdb
