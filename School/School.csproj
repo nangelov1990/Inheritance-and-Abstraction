@@ -41,7 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Data\Discipline.cs" />
+    <Compile Include="Data\Interfaces\IName.cs" />
+    <Compile Include="Data\Interfaces\IDetails.cs" />
+    <Compile Include="Data\People\Person.cs" />
+    <Compile Include="Data\People\Student.cs" />
+    <Compile Include="Data\People\Teacher.cs" />
+    <Compile Include="Data\SchoolClass.cs" />
+    <Compile Include="SchoolSystem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
